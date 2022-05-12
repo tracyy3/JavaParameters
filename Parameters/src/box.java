@@ -26,12 +26,10 @@ public class box{
     }
 
     static boolean isTwoObjectsEqual(box b1, box b2) {
-
         if(b1.width == b2.width && b1.height == b2.height)
             return true;
         else
             return false;
-
     }
 
     void display() {
